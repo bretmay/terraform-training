@@ -4,6 +4,6 @@ resource "azurerm_resource_group" "example" {
 
   tags = {
     Environment = var.environment
-    CreatedBy   = "Brets-Terraform"
+    CreatedBy   = "Brets-Terraform-Training"
   }
 }
