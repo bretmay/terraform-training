@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   description = "The name of the Azure resource group"
   type        = string
-  default     = "brets-resources-rg"
+  default     = "brets-terraform-rg"
 }
 
 variable "location" {
